@@ -39,10 +39,12 @@ Use this checklist before publishing a GitHub release.
 - Confirm `README.md`, `LICENSE`, `SECURITY.md`, and `CONTRIBUTING.md` are current.
 - Add screenshots or a demo video only after checking they do not reveal private URLs, tokens, or personal content.
 
-## Optional GitHub Actions
+## GitHub Actions
 
-If your GitHub token has the `workflow` scope, add a CI workflow that runs the same three checks on pull requests:
+The repository includes CI that runs the same three checks on pull requests:
 
 - `./gradlew :app:assembleDebug`
 - `node --check mac/server.js`
 - `python3 -m py_compile relay/relay.py`
+
+The release workflow can attach a debug APK when a GitHub release is published.

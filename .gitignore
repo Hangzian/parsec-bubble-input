@@ -30,6 +30,7 @@ relay/relay.env
 !docs/assets/*.jpg
 !docs/assets/*.jpeg
 !docs/assets/*.webp
+!docs/assets/*.svg
 
 # IDE
 .idea/

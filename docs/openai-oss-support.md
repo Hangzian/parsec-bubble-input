@@ -37,6 +37,7 @@ The repository includes:
 - README and FAQ
 - MIT license
 - contribution and security docs
+- GitHub Actions for repeatable validation
 - release checklist and repeatable local checks
 
 ## Potential Future Work

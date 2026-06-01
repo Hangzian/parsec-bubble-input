@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Parsec Bubble Input overview</title>
+  <desc id="desc">Android floating bubble sends text to a Mac bridge, which pastes into the focused Mac app. An optional relay supports off-LAN use.</desc>
+  <rect width="1200" height="560" rx="32" fill="#f6f8fc"/>
+  <rect x="62" y="70" width="300" height="390" rx="34" fill="#0b1220"/>
+  <rect x="86" y="102" width="252" height="326" rx="24" fill="#f8fafc"/>
+  <circle cx="212" cy="88" r="6" fill="#334155"/>
+  <rect x="112" y="132" width="200" height="36" rx="12" fill="#e2e8f0"/>
+  <rect x="112" y="188" width="152" height="18" rx="9" fill="#cbd5e1"/>
+  <rect x="112" y="220" width="176" height="18" rx="9" fill="#cbd5e1"/>
+  <rect x="112" y="274" width="200" height="64" rx="18" fill="#ffffff" stroke="#dae1eb"/>
+  <circle cx="294" cy="372" r="30" fill="#2963eb"/>
+  <path d="M281 369l28-13-8 31-9-9-8 5 4-11z" fill="#ffffff"/>
+  <text x="212" y="504" text-anchor="middle" fill="#182436" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Android Bubble</text>
+  <text x="212" y="532" text-anchor="middle" fill="#5f6c80" font-family="Inter, Arial, sans-serif" font-size="16">type, paste, resend, auto-send</text>
+
+  <path d="M390 244h180" stroke="#2963eb" stroke-width="6" stroke-linecap="round"/>
+  <path d="M560 226l34 18-34 18z" fill="#2963eb"/>
+  <text x="492" y="216" text-anchor="middle" fill="#5f6c80" font-family="Inter, Arial, sans-serif" font-size="16">POST /api/paste</text>
+
+  <rect x="606" y="96" width="278" height="170" rx="22" fill="#ffffff" stroke="#dae1eb"/>
+  <rect x="636" y="126" width="72" height="72" rx="18" fill="#e8f1ff"/>
+  <path d="M654 166l37-23-13 42-10-12-9 7 5-12z" fill="#2963eb"/>
+  <text x="742" y="154" fill="#182436" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">Mac Bridge</text>
+  <text x="742" y="186" fill="#5f6c80" font-family="Inter, Arial, sans-serif" font-size="16">Node.js, local token, paste</text>
+  <text x="742" y="216" fill="#5f6c80" font-family="Inter, Arial, sans-serif" font-size="16">pbcopy + Cmd+V</text>
+
+  <path d="M884 182h126" stroke="#13a66f" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1000 164l34 18-34 18z" fill="#13a66f"/>
+
+  <rect x="1032" y="116" width="112" height="92" rx="18" fill="#ffffff" stroke="#dae1eb"/>
+  <rect x="1052" y="137" width="72" height="14" rx="7" fill="#cbd5e1"/>
+  <rect x="1052" y="164" width="54" height="14" rx="7" fill="#cbd5e1"/>
+  <rect x="1052" y="190" width="62" height="14" rx="7" fill="#13a66f"/>
+  <text x="1088" y="244" text-anchor="middle" fill="#182436" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Focused App</text>
+
+  <rect x="606" y="332" width="278" height="116" rx="22" fill="#ffffff" stroke="#dae1eb" stroke-dasharray="10 8"/>
+  <text x="745" y="378" text-anchor="middle" fill="#182436" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Optional Relay</text>
+  <text x="745" y="410" text-anchor="middle" fill="#5f6c80" font-family="Inter, Arial, sans-serif" font-size="16">for off-LAN long polling</text>
+  <path d="M390 318h178" stroke="#8aa0bd" stroke-width="5" stroke-linecap="round" stroke-dasharray="9 11"/>
+  <path d="M558 300l30 18-30 18z" fill="#8aa0bd"/>
+  <path d="M745 332V278" stroke="#8aa0bd" stroke-width="5" stroke-linecap="round" stroke-dasharray="9 11"/>
+  <path d="M727 288l18-30 18 30z" fill="#8aa0bd"/>
+
+  <text x="600" y="48" text-anchor="middle" fill="#0b1220" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">Parsec Bubble Input</text>
+</svg>
