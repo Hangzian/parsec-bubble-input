@@ -1,6 +1,6 @@
 # Parsec Bubble Input
 
-Android floating bubble input companion for Parsec on Mac.
+Unofficial Android floating bubble input companion for Parsec on Mac.
 
 [![CI](https://github.com/Hangzian/parsec-bubble-input/actions/workflows/ci.yml/badge.svg)](https://github.com/Hangzian/parsec-bubble-input/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/Hangzian/parsec-bubble-input)](https://github.com/Hangzian/parsec-bubble-input/releases)
@@ -11,11 +11,15 @@ Parsec is excellent for remote screen control, but text entry from a phone can b
 
 This is a small, practical open-source utility: one Android app, one lightweight Mac bridge, and an optional relay for off-LAN setups.
 
+Parsec gives you the screen. Parsec Bubble Input gives you comfortable text entry.
+
 ## Use Case
 
 - You use Parsec on Android to control a Mac.
 - You want to type Chinese, prompts, search queries, chat replies, or form content from the phone.
 - You want to keep using the phone's keyboard, clipboard, or voice input while the Mac receives clean pasted text.
+
+For a Parsec-focused setup guide, see [Use with Parsec](docs/use-with-parsec.md).
 
 ## Features
 
