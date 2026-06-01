@@ -2,6 +2,9 @@
 
 Android floating bubble input companion for Parsec on Mac.
 
+[![CI](https://github.com/Hangzian/parsec-bubble-input/actions/workflows/ci.yml/badge.svg)](https://github.com/Hangzian/parsec-bubble-input/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/Hangzian/parsec-bubble-input)](https://github.com/Hangzian/parsec-bubble-input/releases)
+
 ![Parsec Bubble Input overview](docs/assets/overview.svg)
 
 Parsec is excellent for remote screen control, but text entry from a phone can be awkward: tiny remote input fields, hard-to-place cursors, and clumsy Chinese or long-form text input. Parsec Bubble Input adds a small Android overlay that lets you type or paste text on the phone and send it to a Mac bridge, which then pastes the text into the currently focused Mac window.
@@ -169,6 +172,14 @@ If `PBI_TOKEN` is omitted, the bridge generates a private token at:
 ```
 
 ## Quick Start: Android App
+
+For a quick test, download the debug APK from the latest GitHub Release:
+
+```text
+https://github.com/Hangzian/parsec-bubble-input/releases
+```
+
+Or build it locally:
 
 Build a debug APK:
 
