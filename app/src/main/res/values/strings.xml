@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Parsec Bubble Input</string>
+    <string name="default_server_url"></string>
+    <string name="default_token"></string>
+</resources>

@@ -1,0 +1,9 @@
+{
+  "name": "parsec-bubble-input-mac-bridge",
+  "version": "1.0.0",
+  "description": "Local Mac bridge for Parsec Bubble Input.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

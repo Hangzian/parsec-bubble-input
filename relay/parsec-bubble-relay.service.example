@@ -1,0 +1,16 @@
+[Unit]
+Description=Parsec Bubble Input Relay
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+EnvironmentFile=/etc/parsec-bubble-relay.env
+WorkingDirectory=/opt/parsec-bubble-relay
+ExecStart=/usr/bin/python3 /opt/parsec-bubble-relay/relay.py
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

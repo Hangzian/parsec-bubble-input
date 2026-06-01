@@ -1,0 +1,36 @@
+# Android / Gradle
+.gradle/
+build/
+app/build/
+local.properties
+*.apk
+*.aab
+
+# macOS
+.DS_Store
+
+# Runtime bridge config and state
+mac/bridge.env
+mac/.token
+mac/.relay-cursor
+mac/.relay-url
+mac/*.log
+mac/*.pid
+relay/relay.env
+*.env.local
+
+# Local screenshots and manual QA captures
+*.png
+*.jpg
+*.jpeg
+*.webp
+!docs/assets/
+!docs/assets/.gitkeep
+!docs/assets/*.png
+!docs/assets/*.jpg
+!docs/assets/*.jpeg
+!docs/assets/*.webp
+
+# IDE
+.idea/
+*.iml
